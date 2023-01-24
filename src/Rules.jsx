@@ -10,8 +10,7 @@ const Rules = () => {
             <ol style={{paddingLeft: 200, paddingRight: 200, paddingTop: 20}}>
             <li>Choose a difficult level you want to play</li>
             <li>If you choose "normal", you have 6 times to guess a 6-letter word;
-                if you choose "hard", you have 5 times to guess a 7-letter word 
-                (please enter lowercase letters)
+                if you choose "hard", you have 5 times to guess a 7-letter word
             </li>
             <li>The color of the tiles will tell you how close your guess is to the word: 
                 "green" means the letter is in the word and in the correct spot;

@@ -17,7 +17,7 @@ export default function NormalVersion () {
     const [round, setRound] = useContext(normalContext);
 
     const show = (event) => {
-        setWord(String(event.target.value))
+        setWord(String(event.target.value).toLowerCase())
     }
 
     const check = () => {
